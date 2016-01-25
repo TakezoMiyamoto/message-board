@@ -22,6 +22,14 @@
     </div>
     <div class="form-group">
         <div class="col-sm-1">
+            <%= f.label :age, '年齢:', class: "control-label pull-right"%>
+        </div>
+        <div class="col-sm-1">
+            <%= f.text_area :age, class: "form-control", rows: 1 %>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-1">
             <%= f.label :body, '内容:', class: "control-label pull-right"%>
         </div>
         <div class="col-sm-11">
